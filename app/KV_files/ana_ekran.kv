@@ -1,0 +1,10 @@
+<AnaEkran>:
+    name: "ana"
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: app.shared_data.lang_data.translate("lang")
+        Button:
+            text: "Ayarlar'a Git"
+            on_release:
+                app.root.current = "ayarlar"
